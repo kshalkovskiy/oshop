@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "TV Samsung",
+        "price": 990,
+        "image": "img/1.png"
+    },
+    {
+        "id": 2,
+        "name": "TV LG",
+        "price": 890,
+        "image": "img/2.png"
+    },
+    {
+        "id": 3,
+        "name": "TV TCL",
+        "price": 920,
+        "image": "img/3.png"
+    },
+    {
+        "id": 4,
+        "name": "IPhone 13",
+        "price": 650,
+        "image": "img/4.png"
+    },
+    {
+        "id": 5,
+        "name": "IPhone 14",
+        "price": 760,
+        "image": "img/5.png"
+    },
+    {
+        "id": 6,
+        "name": "IPhone 15",
+        "price": 930,
+        "image": "img/6.png"
+    },
+    {
+        "id": 7,
+        "name": "Laptop Samsung",
+        "price": 490,
+        "image": "img/7.png"
+    },
+    {
+        "id": 8,
+        "name": "Laptop HP",
+        "price": 450,
+        "image": "img/8.png"
+    },
+    {
+        "id": 9,
+        "name": "Laptop Samsung",
+        "price": 590,
+        "image": "img/9.png"
+    }
+]

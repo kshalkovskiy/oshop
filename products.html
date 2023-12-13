@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<header class="header-prod">
+    <a href="index.html" class="logo"><img src="/img/logo.png">OShop</a>
+
+    <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="products.html" class="active">Our Shop</a></li>
+        <li><a href="index.html">Our Customers</a></li>
+        <li><a href="index.html">Contact Us</a></li>
+    </ul>
+
+    <div class="nav-icons">
+        <li><a href=""><img src="/img/search.png"></a></li>
+        <li><a href=""><img src="/img/cart.png"></a></li>
+        <li><a class="login-img" href="login.html"><img src="/img/user.png"></a></li>
+    </div>
+</header>
+
+<body class="">
+    
+    <section class="container-prod">
+        <div class="text-prod">
+            <div class="title-prod">Products List</div>
+            <div class="icon-cart" id="icon-cart">
+                <a href=""><img src="img/cart.png" alt=""></a>
+                <span>0</span>
+            </div>
+        </div>
+
+        <div class="listProduct">
+            <div class="item">
+                <img src="img/1.png" alt="">
+                <h2>TV Samsung</h2>
+                <div class="price">$990</div>
+                <button class="addCart">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="cartTab" id="cartTab">
+        <h1>Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image-prod">
+                    <img src="img/1.png" alt="">
+                </div>
+                <div class="name-prod">
+                    TV Samsung
+                </div>
+                <div class="totalPrice">
+                    $990
+                </div>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span>1</span>
+                    <span class="plus">+</span>
+                </div>
+            </div>
+        </div>
+        <div class="btn-prod">
+            <button class="close">Close</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>© Shalkovskiy Konstantin, Kozybayev University</h3>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
